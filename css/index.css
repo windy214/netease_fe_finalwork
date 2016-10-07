@@ -1,0 +1,282 @@
+/* index.html 页面样式 */
+
+/* 头部部分 */
+.g-header {
+    height: 125px;
+}
+
+/* 是否有广告上端背景样式 */
+.g-header-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-width: 1206px;
+    height: 30px;
+    background-color: #f8f8f8;
+}
+.g-header-top.ad {
+    height: 36px;
+    background-color: #F3F3F3;
+}
+
+.g-container {
+    position: relative;
+    width: 1206px;
+    margin: 0 auto;
+}
+
+.g-header-ad {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-width: 1206px;
+    height: 36px;
+    line-height: 36px;
+    color: #333;
+}
+.g-header-ad a {
+    color: #21a557;
+}
+.g-header-ad .nevershow {
+    float: right;
+    cursor: pointer;
+}
+.nevershow .close {
+    width: 9px;
+    height: 9px;
+    margin-right: 2px;
+    background: url(../img/icons24.png) no-repeat -30px -29px;
+}
+
+.g-header-content {
+    padding: 66px 0 37px;
+    line-height: 22px;
+}
+
+.g-header-content .logo {
+    vertical-align: bottom;
+}
+/* 中间空格间距比设计稿多1px,所以宽度54+1px看起来比较对称 */
+.g-header-content .follow {
+    display: inline-block;
+    width: 55px;
+    height: 21px;
+    margin-left: 26px;
+    border-radius: 2px;
+    font-family: "宋体";
+    line-height: 21px;
+    vertical-align: bottom;
+    color: #FFF;
+    background-color: #21A557;
+}
+.g-header-content .follow:hover {
+    background-color: #2fb556;
+}
+.follow .icon {
+    margin-left: 9px;
+    width: 8px;
+    height: 8px;
+    background: url(../img/icons24.png) no-repeat -1px -29px;
+}
+
+/* 中间空格间距比设计稿多1px,所以宽度105+3px看起来比较对称 */
+.follow.ed {
+    width: 108px;
+    height: 19px;
+    border: 1px solid #efefef;
+    line-height: 19px;
+    color: #333;
+    background-color: #F8F8F8;
+}
+.follow.ed .icon {
+    margin-left: 6px;
+    width: 11px;
+    height: 9px;
+    background: url(../img/icons24.png) no-repeat -15px -29px;
+}
+.follow.ed i {
+    color: #ccc;
+}
+.follow.ed span {
+    color: #999;
+}
+.follow.ed:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.follow.ed:hover span {
+    color: #21a557;
+    text-decoration: underline;
+}
+
+.g-header-content .fans {
+    margin-left: 11px;
+    color: #666;
+}
+
+.g-header-content .nav {
+    float: right;
+}
+
+.nav a {
+    margin-right: 50px;
+    color: #666;
+    font-size: 16px;
+}
+.nav a:hover {
+    color: #39a030;
+}
+
+.nav .search {
+    width: 19px;
+    height: 19px;
+    vertical-align: -4px;
+    background: url(../img/icons24.png) no-repeat -1px -1px;
+}
+.nav .search:hover {
+    background: url(../img/icons24.png) no-repeat -24px -1px;
+}
+
+.m-introduce-item {
+    width: 344px;
+    margin-top: 60px;
+    float: left;
+}
+.m-introduce-item~.m-introduce-item {
+    margin-left: 84px;
+}
+
+.m-introduce-logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 8px 19px 0 5px;
+}
+.m-introduce-logo.c-open {
+    background: url(../img/icons24.png) no-repeat -1px -45px;
+}
+.m-introduce-logo.c-study {
+    background: url(../img/icons24.png) no-repeat -85px -45px;
+}
+.m-introduce-logo.c-icourse {
+    background: url(../img/icons24.png) no-repeat -169px -45px;
+}
+
+.m-introduce-text {
+    float: left;
+    width: 240px;
+}
+.m-introduce-text h3 {
+    font-size: 22px;
+    color: #333;
+}
+.m-introduce-text p {
+    margin: 20px 0 34px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+.m-introduce-text a {
+    padding-bottom: 58px;
+    font-size: 14px;
+    color: #39a030;
+}
+.m-introduce-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* 内容部分 */
+.g-content {
+    min-width: 1206px;
+    padding: 78px 0 120px;
+    background-color: #f8f8f8;
+}
+
+.g-sider{
+    float: right;
+    width: 225px;
+    margin-top: 4px;
+}
+.g-sider-title{
+    height: 56px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    line-height: 56px;
+}
+.g-sider-container{
+    height: 700px;
+    padding: 20px;
+    overflow: hidden;
+}
+.g-sider-container span{
+    font-size: 14px;
+    line-height: 1;
+}
+
+.g-sider-video{
+    width: 223px;
+    height: 229px;
+    box-shadow: 0 1px 1px 0px #d4d3d3;
+    background-color: #fff;
+}
+.g-sider-video img{
+    margin: 9px auto 0;
+    cursor: pointer;
+}
+
+.g-sider-ranking{
+    width: 223px;
+    margin-top: 20px;
+    box-shadow: 0 1px 1px 0px #d4d3d3;
+    background-color: #fff;
+}
+
+
+/* 底部部分 */
+.g-footer {
+    width: 100%;
+    min-width: 1206px;
+    height: 262px;
+    color: #bebfc0;
+    background-color: #2c3339;
+}
+
+.g-footer .g-info {
+    display: inline-block;
+    padding: 92px 0 0 48px;
+    font-size: 12.5px;
+    line-height: 25px;
+}
+
+.g-footer .g-more {
+    float: right;
+    padding-top: 72px;
+    font-size: 14.5px;
+    line-height: 29px;
+}
+.g-footer .g-more a {
+    display: block;
+    color: #bebfc0;
+}
+.g-footer .g-more a:hover {
+    text-decoration: underline;
+}
+.g-more.c-link {
+    padding-right: 98px;
+}
+.g-more.c-us {
+    padding-right: 72px;
+}
+.g-more.c-us .sina {
+    width: 20px;
+    height: 16px;
+    margin-left: 10px;
+    vertical-align: -4px;
+    background: url(../img/icons24.png) no-repeat -117px -3px;
+    cursor: pointer;
+}
+.g-more.c-more {
+    padding-right: 208px;
+}

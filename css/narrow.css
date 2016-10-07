@@ -1,0 +1,29 @@
+/* 窄屏适配样式 */
+body{
+    min-width: 1206px;
+}
+.m-gridview-contentwraper{
+    width: 715px;
+}
+.m-gridview-content{
+    width:735px
+}
+.g-container {
+    width: 960px;
+}
+.m-introduce-item {
+    width: 272px;
+}
+.m-introduce-logo{
+    margin-left: 0;
+    margin-right: 20px;
+}
+.m-introduce-item~.m-introduce-item {
+    margin-left: 72px;
+}
+.m-introduce-text {
+    width: 172px;
+}
+.g-more.c-more {
+    padding-right: 77px;
+}
