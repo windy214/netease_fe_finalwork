@@ -181,7 +181,7 @@
 }
 .m-gridview-item  .item-info{
     width: 219px;
-    margin: 9px 0 0 4px;
+    margin: 8px 0 0 4px; /* 因为相邻元素垂直方向上有不明2px空白,依据设计图10px-2px */
 }
 .m-gridview-item .org{
     color: #999;
@@ -201,6 +201,7 @@
 .m-gridview-item .price{
     color: #ff3f00;
     font-weight: 600;
+    text-indent: 2px; /* 价格文字缩进2像素 */
 }
 .m-gridview-item .coverlayer{
     display: none;
