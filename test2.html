@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            .m-revolver-container {
+                width: 100%;
+                min-width: 1206px;
+                margin-top: 58px;
+                padding: 2px 0;
+                overflow: hidden;
+                background-color: #f8f8f8;
+            }
+            .m-revolver {
+                width: 1616px;
+                height: 220px;
+                margin: 0 auto;
+            }
+            
+            .m-revolver-container {
+                position: relative;
+                height: 220px;
+            }            
+            .m-revolver-container .p {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: 0;
+                padding: 0;
+            }
+            .m-revolver {
+                position: absolute;
+                top: -50%;
+                left: -50%;
+            }
+            .m-revolver.hidden {
+                visibility: hidden;
+                position: static;
+            }
+            .m-revolver img {
+                float: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="m-revolver-container">
+            <div class="p">
+                <div class="m-revolver">
+                    <img src="img/welfare01.jpg" />
+                    <img src="img/welfare02.jpg" />
+                    <img src="img/welfare03.jpg" />
+                    <img src="img/welfare04.jpg" />
+                    <img src="img/welfare05.jpg" />
+                </div>
+                <div class="m-revolver hidden">
+                    <img src="img/welfare01.jpg" />
+                    <img src="img/welfare02.jpg" />
+                    <img src="img/welfare03.jpg" />
+                    <img src="img/welfare04.jpg" />
+                    <img src="img/welfare05.jpg" />
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

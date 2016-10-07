@@ -52,6 +52,36 @@
     margin: 0 auto;
 }
 
+/* revolver 内容居中溢出隐藏兼容效果 */
+.m-revolver-container {
+    position: relative;
+    height: 220px;
+}
+
+.m-revolver-container .p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.m-revolver {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+}
+
+.m-revolver.hidden {
+    visibility: hidden;
+    position: static;
+}
+
+.m-revolver img {
+    float: left;
+}
+
+
 /* ranking */
 .m-ranking-item{
     width: 100%;
