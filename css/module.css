@@ -180,7 +180,7 @@
     white-space: nowrap;
 }
 .m-gridview-item  .item-info{
-    width: 219px;
+    width: 210px;
     margin: 8px 0 0 4px; /* 因为相邻元素垂直方向上有不明2px空白,依据设计图10px-2px */
 }
 .m-gridview-item .org{
