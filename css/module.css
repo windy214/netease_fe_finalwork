@@ -80,6 +80,9 @@
 .m-revolver img {
     float: left;
 }
+.m-revolver img~img {
+    margin-left: 4px;
+}
 
 
 /* ranking */

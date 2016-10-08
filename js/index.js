@@ -2,8 +2,13 @@ window.onload = function() {
     
     //页面刷新时根据窗口宽度改变布局
     if(document.body.clientWidth < 1206) {
-        var str = '<link rel="stylesheet" type="text/css" href="css/narrow.css" />';
-        document.querySelector('head').appendChild(html2node(str));
+        var narrowcss = document.createElement('link');
+        narrowcss.rel = "stylesheet";
+        narrowcss.type = "text/css";
+        narrowcss.href = "css/narrow.css";
+        //var str = '<link rel="stylesheet" type="text/css" href="css/narrow.css" />';
+        //document.querySelector('head').appendChild(html2node(str));
+        document.querySelector('head').appendChild(narrowcss);
     }
     var size = document.body.clientWidth >= 1206 ? 20 : 15;
     
