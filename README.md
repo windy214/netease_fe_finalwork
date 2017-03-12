@@ -1,6 +1,8 @@
 # netease_fe_finalwork
-v0.9.4  
-##TODO  
+v0.9.4  
+##网易云课堂前端微专业学习最后的实践作业.(得允许不安全脚本才能正常显示.)  
+https://windy214.github.io/netease_fe_finalwork/
+##TODO  
 1.keyword，description，seo优化;  
 2.轮播图点击后页面未新窗口打开;  
 3.代码重构:  
