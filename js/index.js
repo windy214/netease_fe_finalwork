@@ -125,7 +125,7 @@ window.onload = function() {
                 请观看下面的视频 \
             </h3> \
             <video controls="controls" width="889"> \
-                <source src="http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4" type="video/mp4"></source> \
+                <source src="//mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4" type="video/mp4"></source> \
                 抱歉当前浏览器不支持 video直接播放 \
             </video> \
         </div>'
@@ -217,7 +217,7 @@ function logRequest() {
         return;
     }
     ajax({
-        url: 'http://study.163.com/webDev/login.htm',
+        url: '//study.163.com/webDev/login.htm',
         data: {
             userName: MD5(account),
             password: MD5(psw)
@@ -236,7 +236,7 @@ function logRequest() {
 
 function loadHot() {
     ajax({
-        url: 'http://study.163.com/webDev/hotcouresByCategory.htm',
+        url: '//study.163.com/webDev/hotcouresByCategory.htm',
         method: 'get',
         async: true,
     }, function(data) {
@@ -298,7 +298,7 @@ function toggleFollow(state) {
         case 1:
             ajax({
                 method: 'get',
-                url: 'http://study.163.com/webDev/attention.htm'
+                url: '//study.163.com/webDev/attention.htm'
             }, function(data) {
                 if(data == 1) setCookie('followSuc', 1);
                 setFollowBtn(2);

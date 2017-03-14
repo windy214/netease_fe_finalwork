@@ -57,7 +57,7 @@ function fadeIn(index) {
 //获取课程列表
 function getCourse(No, Size, Type) {
     ajax({
-        url: 'http://study.163.com/webDev/couresByCategory.htm',
+        url: '//study.163.com/webDev/couresByCategory.htm',
         method: 'get',
         data: {
             pageNo: No,
