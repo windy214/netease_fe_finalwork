@@ -6,10 +6,12 @@
     position: relative;
     width: 100%;
     min-width: 1206px;
-    height: 460px;
-    text-align: center;
     overflow: hidden;
     background-color: #f8f8f8;
+}
+
+.m-slider-container img{
+    width:100%;
 }
 
 .m-slider-controller {
@@ -43,7 +45,7 @@
     margin-top: 58px;
     padding: 2px 0;
     overflow: hidden;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
 }
 
 .m-revolver {

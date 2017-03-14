@@ -214,7 +214,7 @@ function ajax(obj, callback) {
                 if((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
                     callback(xhr.responseText);
                 } else {
-                    alert('Request was unsuccessful: ' + xhr.status);
+                    //alert('Request was unsuccessful: ' + xhr.status);
                 }
             }
         };
@@ -230,7 +230,7 @@ function ajax(obj, callback) {
         if((xhr.status >= 200 && xhr.status < 300) || xhr.status == 304) {
             callback(xhr.responseText);
         } else {
-            alert('Request was unsuccessful: ' + xhr.status);
+            //alert('Request was unsuccessful: ' + xhr.status);
         }
     }
 }

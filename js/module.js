@@ -1,16 +1,15 @@
 //slider.js
-var sliderSrc = [{
-    url: 'http://open.163.com/',
-    src: "img/banner1.jpg"
-}, {
-    url: 'http://study.163.com/',
-    src: "img/banner2.jpg"
-}, {
-    url: 'http://www.icourse163.org/',
-    src: "img/banner3.jpg"
-}]
-
 function fadeIn(index) {
+    var sliderSrc = [{
+        url: 'http://open.163.com/',
+        src: "img/banner1.jpg"
+    }, {
+        url: 'http://study.163.com/',
+        src: "img/banner2.jpg"
+    }, {
+        url: 'http://www.icourse163.org/',
+        src: "img/banner3.jpg"
+    }]
     var obj = sliderSrc[index];
     var controllers = document.querySelectorAll('.m-slider-controller i');
     for(var i = 0, n = controllers.length; i < n; i++) {
